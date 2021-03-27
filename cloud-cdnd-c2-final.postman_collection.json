@@ -6,12 +6,12 @@
     },
     "item": [
         {
-            "name": "http://localhost:8082/filteredimage?image_url=https://cdn.pixabay.com/photo/2016/06/08/09/19/boy-1443458_960_720.png",
+            "name": "/filteredimage",
             "request": {
                 "method": "GET",
                 "header": [],
                 "url": {
-                    "raw": "http://{{HOST}}/filteredimage?image_url=https://cdn.pixabay.com/photo/2016/06/08/09/19/boy-1443458_960_720.png",
+                    "raw": "{{HOST}}/filteredimage?image_url=https://cdn.pixabay.com/photo/2016/06/08/09/19/boy-1443458_960_720.png",
                     "protocol": "http",
                     "host": ["{{HOST}}"],
                     "path": ["filteredimage"],
@@ -48,7 +48,7 @@
         {
             "id": "1df3d31a-de30-494b-a3d0-f1228dd8713c",
             "key": "HOST",
-            "value": "localhost:8082",
+            "value": "http://udacity-learn-image-filter-api-dev.us-east-1.elasticbeanstalk.com",
             "type": "string"
         }
     ]
